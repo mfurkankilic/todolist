@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;0,400;1,100..400;1,400&display=swap" rel="stylesheet">
+
+    <title>To-Do App</title>
+</head>
+<body>
+       
+            <div class="container ">
+                <header class=" baslik text-center my-4 ">
+                    <h1 class="mb-4">Yapılacaklar Listesi</h1>
+                    <form class="search">
+                        <input class="form-control" type="text" name="search" placeholder="Ara...">
+                        <!-- bootstrap'a ait form control classı with'i 100% yapar ve css'ler verir. -->
+                    </form>
+                </header>
+                <ul class="list-group todos ">
+                    <li class="list-group-item d-flex justify-content-between align-items-center "><span>JavaScript Çalış</span>  <i class="fa-sharp fa-solid fa-trash fa-beat-fade delete"></i>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><span>Yürüyüşe Çık</span>
+                        <i class="fa-sharp fa-solid fa-trash fa-beat-fade delete"></i>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><span>Literatür Araştırması Yap</span>
+                        <i class="fa-sharp fa-solid fa-trash fa-beat-fade delete"></i>
+                    </li>
+                    
+                    
+                  </ul>
+                    <form class="text-center my-4 add">
+                      <label class="ekle"><h2>Yeni İş Ekle</h2> </label>
+                      <input type="text" class="form-control m-auto" name="add" />
+                    </form>
+            </div>
+            <script src="https://kit.fontawesome.com/ea18bbadb7.js" crossorigin="anonymous"></script>
+            <script src="furkan.js"></script>
+</body>
+</html>

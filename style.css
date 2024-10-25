@@ -1,0 +1,35 @@
+body {
+    background-image: url('resim-4.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    /* arka plan resimini sayfa kaysa bile sabit kalır */
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+    .container{
+        max-width: 500px;;
+        padding-top: 80px;
+    }
+
+    ::placeholder{
+        color: rgb(224, 112, 27) !important; 
+    }
+    .delete{
+        cursor: pointer;
+    }
+     
+    
+    .baslik,.ekle{
+        font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: rgb(33, 13, 5);
+      }
+
+      .filtered{
+        display:none !important;
+        /* Javascriptte arama yaparken içermeyen kelimelerin görünmemesi için ekledim */
+      }
